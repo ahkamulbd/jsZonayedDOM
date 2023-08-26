@@ -5,9 +5,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JS DOM</title>
+    <style>
+        .box {
+            width: 500px;
+            height: 150px;
+            background-color: rgb(52, 104, 164);
+            margin: 30px auto;
+            font-size: 30px;
+            font-weight: 700;
+            color: whitesmoke;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #box-3 {
+            height: 250px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        #div3-para2 {
+            font-size: 16px;
+            text-align: center;
+            padding: 0 100px;
+        }
+
+        #added-id {
+            background-color: blueviolet;
+        }
+    </style>
 </head>
 
 <body>
+    <section id="section-container">
+        <div class="box" id="box-1">Box - 1</div>
+        <div class="box" id="box-2">Box - 2</div>
+        <div class="box" id="box-3">
+            <p>Box - 3</p>
+            <p id="div3-para2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae qui voluptatem sunt
+                aperiam
+                facilis omnis
+                nostrum incidunt recusandae non neque.</p>
+        </div>
+    </section>
 
 
     <script src="js/script.js"></script>
