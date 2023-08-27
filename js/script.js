@@ -52,3 +52,6 @@ insertedDiv.style.backgroundColor = '#fea700';
 //sectionContainer.insertAdjacentElement('afterend', insertedDiv);
 //sectionContainer.insertAdjacentElement('beforebegin', insertedDiv);
 sectionContainer.insertAdjacentElement('afterbegin', insertedDiv);
+
+/* ====== Removing Element ====== */
+document.getElementById('box-1').remove();
