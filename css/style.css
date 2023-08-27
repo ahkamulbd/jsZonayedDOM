@@ -1,0 +1,28 @@
+.box {
+    width: 500px;
+    height: 150px;
+    background-color: rgb(52, 104, 164);
+    margin: 30px auto;
+    font-size: 30px;
+    font-weight: 700;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#box-3 {
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+}
+
+#div3-para2 {
+    font-size: 16px;
+    text-align: center;
+    padding: 0 100px;
+}
+
+#added-id {
+    background-color: blueviolet;
+}
