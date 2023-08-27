@@ -11,7 +11,7 @@ let boxArray = Array.prototype.slice.call(boxNodeList);
 //console.dir(boxArray);
 
 let boxHtmlSelection = document.getElementsByClassName('div');
-console.log(boxHtmlSelection);
+//console.log(boxHtmlSelection);
 
 let sectionContainer = document.getElementById('section-container');
 
@@ -21,7 +21,7 @@ let newDiv = document.createElement('div');
 newDiv.innerText = 'New Div';
 newDiv.classList.add('box');
 sectionContainer.appendChild(newDiv);
-console.log(newDiv);
+//console.log(newDiv);
 
 /* ====== Adding Style ====== */
 
@@ -54,4 +54,5 @@ insertedDiv.style.backgroundColor = '#fea700';
 sectionContainer.insertAdjacentElement('afterbegin', insertedDiv);
 
 /* ====== Removing Element ====== */
-document.getElementById('box-1').remove();
+//document.getElementById('box-1').remove();
+
