@@ -39,3 +39,16 @@ addedDiv.innerHTML = `
 `;
 addedDiv.style.color = 'yellow';
 sectionContainer.appendChild(addedDiv);
+
+/* ====== Adding Element by insertAdjacentElement() method ====== */
+
+let insertedDiv = document.createElement('div');
+insertedDiv.classList.add('box');
+insertedDiv.innerHTML = `
+    <div>Inserted Div</div>
+`;
+insertedDiv.style.backgroundColor = '#fea700';
+//sectionContainer.insertAdjacentElement('beforeend', insertedDiv);
+//sectionContainer.insertAdjacentElement('afterend', insertedDiv);
+//sectionContainer.insertAdjacentElement('beforebegin', insertedDiv);
+sectionContainer.insertAdjacentElement('afterbegin', insertedDiv);
